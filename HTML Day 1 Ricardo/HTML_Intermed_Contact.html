@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+    
+<h1>Contact form</h1>
+<h2>If you have an idea, contact us!</h2>
+
+<label for="name">Your name:</label>
+<br>
+<input type="text" id="name" name="name">
+<br>
+<label for="sname">Your surname:</label>
+<br>
+<input type="text" id="sname" name="sname">
+<br>
+<label for="email">E-Mail Adress:</label>
+<br>
+<input type="text" id="email" name="email">
+<br>
+<label for="pnumber">Mobile:</label>
+<br>
+<input type="text" id="pnumber" name="pnumber">
+<br>
+<br>
+<label for="intesesse">I´m interested to receive a news about new:</label>
+<form name="interesse" action="#" method="get">
+<input type="radio" name="hobby" value="books" /> Books
+<input type="radio" name="hobby" value="films" /> Films
+<input type="radio" name="hobby" value="games" /> Games
+</form>
+<br>
+<label for="interesse">How much time you spend for your hobbies?</label>
+<form name="interesse" action="#" method="get">
+<input type="checkbox" name="hobby" value="one" /> less than an 1 hrs a day
+<br>
+<input type="checkbox" name="hobby" value="two" /> 1-2 hrs a day
+<br>
+<input type="checkbox" name="hobby" value="week" /> few hrs in a week
+<br>
+<input type="checkbox" name="hobby" value="weekdays" /> every day during the week
+<br>
+<input type="checkbox" name="hobby" value="month" /> 1-2 times a month
+<br>
+<input type="checkbox" name="hobby" value="months" /> few times in a few months
+<br>
+<input type="checkbox" name="hobby" value="sometimes" /> from time to time
+</form>
+<br>
+<label for="comment">Space for your ideas:</label>
+<br>
+<form action="#" method="post">
+    <p><textarea rows="10" cols="45" name="text" placeholder="Write something cool!"></textarea></p>
+    <p>
+    <input type="submit" value="Send">
+    <input type="submit" value="Clear changes">
+    </p>
+</form>
+
+</body>
+</html>
